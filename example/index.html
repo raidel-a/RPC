@@ -2,14 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>BOOP TEH SNEK (RPC Example)</title>
+    <title>Logic Pro Discord RPC</title>
     <link rel=stylesheet href=style.css />
   </head>
   <body>
-    <h1>BOOP TEH SNEK</h1>
-    <div id=game><div id=snek>🐍</div></div>
-    <h3 id=boops>0 BOOPS</h3>
-
+    <h1>Logic Pro Discord RPC</h1>
+    <div id="status">
+      <p>Discord RPC Status: <span id="connection-status">Connecting...</span></p>
+      <p>Logic Pro Status: <span id="logic-status">Checking...</span></p>
+    </div>
     <script src=renderer.js></script>
   </body>
 </html>
